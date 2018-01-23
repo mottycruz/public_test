@@ -1,6 +1,6 @@
 node default {
 }
-node 'master1.sscs.ad' {
+node 'master1' {
       include role::master_server
       file { '/home/README':
           ensure => file,
