@@ -1,6 +1,6 @@
 node default {
 }
-node 'master.puppet.vm' {
+node 'master1.sscs.ad' {
       include role::master_server
 }
 node /^web/ {
